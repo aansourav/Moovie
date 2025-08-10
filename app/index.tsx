@@ -2,14 +2,8 @@ import { Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Welcome to Moovie</Text>
+    <View className="flex-1 items-center justify-center bg-black">
+      <Text className="text-red-600 text-5xl font-bold">Welcome to Moovie</Text>
     </View>
   );
 }
