@@ -18,6 +18,7 @@ const TabIcon = ({
       <ImageBackground
         source={images.highlight}
         className="flex flex-row items-center justify-center flex-1 w-full mt-4 min-h-[53px] min-w-[112px] rounded-full"
+        imageStyle={{ borderRadius: 9999 }}
       >
         <Image source={icon} tintColor="#151312" className="size-5" />
         <Text className="text-secondary text-base font-semibold ml-2">
